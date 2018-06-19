@@ -1,5 +1,5 @@
 # VKGroupMsg - send messages from group name to chat
-This is a simple bash script for sending group messages in chats
+This is a simple bash script for sending group messages in chats.
 # Dependencies:
 * curl
 * catimg
