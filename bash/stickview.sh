@@ -1,5 +1,5 @@
 #!/bin/bash
-## Егор красава
+## Егор красава 
 echo "Stickview v1 by egor21312"
 function stickview2 {
 clear
