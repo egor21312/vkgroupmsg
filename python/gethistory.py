@@ -1,7 +1,7 @@
 import vk
 import time
 import math
-session = vk.Session(access_token='6bf8e7e4baacb7b4c530f8cfb1b85dd32a48e910b2b34fb317911e9360f8251ebf98737d597022a73c1f8')
+session = vk.Session(access_token='ENTER YOUR TOKEN')
 vk_api = vk.API(session)
 c = 10
 oldmsg = 0
