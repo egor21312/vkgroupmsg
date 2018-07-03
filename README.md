@@ -5,8 +5,8 @@ For Linux-Users:
 * curl
 * catimg
 
-```sh // apt install curl catimg ``` for Debian/Ubuntu/Linux Mint
+```alexsyw@alexsyw-pc:~$ apt install curl catimg ```
 # How to use:
 You'll need to create token.conf file in a directory with script and enter your group token into this file.
 
-```sh // echo tokengroup >> token.conf ``` 
+```alexsyw@alexsyw-pc:~$ echo tokengroup >> token.conf ``` 
