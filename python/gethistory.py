@@ -1,6 +1,7 @@
 import vk
 import time
 import math
+import datetime
 session = vk.Session(access_token='ENTER YOUR TOKEN')
 vk_api = vk.API(session)
 c = 10
@@ -15,7 +16,10 @@ while c > 0:
 		first_name = user[0]['first_name']
 		last_name = user[0]['last_name']
 		text = history['items'][0]['text']
-		msg = first_name + ' ' + last_name + ' ' + '(' + '@' + 'id' + str(id) + ')' + ': ' + str(text)
+		message_send_unixtime = history['items'][0]['date']
+		message_send_timetonorml = datetime.datetime.fromtimestamp(message_send_unixtime)
+		message_sent_date = unixtimee.strftime('%H:%M')
+		msg = first_name + ' ' + last_name + ' ' + '(' + '@' + 'id' + str(id) + ')' + ': ' + str(text) + ' [ в ' + str(message_sent_date) + ']'
 		if msg == oldmsg:
  			time.sleep(0.8)
 		else:
