@@ -18,7 +18,7 @@ while c > 0:
 		text = history['items'][0]['text']
 		message_send_unixtime = history['items'][0]['date']
 		message_send_timetonorml = datetime.datetime.fromtimestamp(message_send_unixtime)
-		message_sent_date = unixtimee.strftime('%H:%M')
+		message_sent_date = message_send_timetonorml.strftime('%H:%M')
 		msg = first_name + ' ' + last_name + ' ' + '(' + '@' + 'id' + str(id) + ')' + ': ' + str(text) + ' [ в ' + str(message_sent_date) + ']'
 		if msg == oldmsg:
  			time.sleep(0.8)
