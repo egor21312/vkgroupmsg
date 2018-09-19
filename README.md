@@ -1,4 +1,4 @@
-project is die. sorry.
+This project is deprecated, sorry.
 # VKGroupMsg - send messages from group name to chat
 This is a simple bash script for sending group messages in chats.
 # Dependencies:
